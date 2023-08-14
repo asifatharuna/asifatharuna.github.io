@@ -1,0 +1,120 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Content styles */
+#content {
+  padding: 20px;
+}
+
+/* Post styles */
+header {
+  margin-bottom: 20px;
+}
+
+header h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Container styles */
+.wrap {
+  display: flex;
+}
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the font and line-height */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+.large-font {
+  font-size: 20px;
+}
+/* Container for the content */
+#content {
+  padding: 2rem;
+}
+
+/* Set the slider width to be 100% of the container on larger screens */
+.carousel {
+  width: 100%;
+  margin-right: 3rem; /* Add 3rem spacing between the carousel and text */
+}
+
+/* Images inside the slider should fill the width and maintain aspect ratio */
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Description text container */
+.image-info {
+  width: 70%;
+  padding: 2rem;
+  font-size: 20px; /* Adjust this value to set the desired font size */
+}
+
+/* GIS images */
+.image-gis {
+  max-width: 600px;
+  height: auto;
+}
+
+/* On smaller screens, change the layout to be stacked vertically */
+@media (max-width: 768px) {
+  .wrap {
+    flex-direction: column; /* Stack the slider and text vertically */
+  }
+
+  .carousel,
+  .image-info {
+    width: 100%;
+    margin-right: 0; /* Remove margin on smaller screens */
+  }
+
+  .image-info {
+    padding: 1rem;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none; /* Hide the previous and next controls on smaller screens */
+    
+ 
+  }
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: transparent;
+
+}
+
+.custom-carousel-control {
+  background-color: #1f1ac4;
+  /* Grey background color */
+  border-radius: 50%;
+  /* Circular shape */
+}
+
+

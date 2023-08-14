@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Asifat Haruna GIS</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+</head>
+
+<body class="is-preload">
+
+	<!-- Content -->
+	<div id="content">
+		<!-- Post -->
+		<header>
+			<h2><a href="#">Welcome to my page</a></h2>
+			<h2> A compilation of GIS projects.</h2>
+		</header>
+		<div class="wrap">
+			<div id="myCarousel1" class="col-lg-3 carousel slide" data-bs-ride="carousel">
+
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/GIS_projects/LULC/RF.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/LULC/ML.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/LULC/Error_matrix_RF.PNG">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/LULC/Error_matrix_ML.PNG">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/LULC/Performance_of_ML_and_RF.PNG">
+					</div>
+				</div>
+
+				<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel1" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon custom-carousel-control" aria-hidden="false"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#myCarousel1" data-bs-slide="next">
+					<span class="carousel-control-next-icon custom-carousel-control" aria-hidden="false"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+
+
+			</div>
+			<div class="image-info">
+				<p>
+					<strong>Land Use Land Cover Classification (LULC)</strong>
+				</p>
+				<p>
+					<strong>Tools: R and ArcGIS (PRO)</strong>
+				</p>
+
+				<strong>Summary :</strong>
+
+				<p>
+					Land-use and land-cover maps have diverse applications in climate, environmental, agricultural, and
+					socioeconomic studies. Hence, it is crucial to create accurate and reliable LULC maps. Traditional
+					methods, such
+					as ground surveys, are inefficient due to labor-intensive processes, high costs, and delays in map
+					updates. A
+					better alternative is remote sensing technology, which allows for repeated monitoring and extensive
+					mapping
+					using high-resolution imagery. Image classification, employing both supervised and unsupervised
+					methods, is
+					widely used for economically and efficiently generating LULC maps.
+				</p>
+				<p>
+					The objectives of this analysis are as follows:
+				<ul>
+					<li>To identify representative training and reference datasets. </li>
+					<li>To classify different LULC types within the study area using two supervised classification
+						algorithms:
+						Maximum Likelihood (ML) and Random Forest (RF).</li>
+					<li>To compare the performance of the implemented classifiers.</li>
+				</ul>
+
+				</p>
+				<p>
+					The analysis utilizes hyperspectral imagery, a digital object model (DOM) derived from airborne
+					LiDAR point
+					data, and a historic ATKIS LULC GIS layer to create high spatial resolution LULC maps over a large
+					area. The aim
+					is to enhance the separation of thematic classes and improve the map's quality by fusing DOM-derived
+					object
+					height information with hyperspectral imagery using principal component analysis. The guided
+					unsupervised
+					classification approach (Bauer et al., 1994) is then employed with the ATKIS GIS layer to stratify
+					and mine
+					representative training and test samples from the fused imagery. Finally, the Random Forest and
+					Maximum likelihood machine learning
+					classifier is used for the final classification, and accuracy assessment is conducted following
+					procedures
+					established in Olofsson et al., 2014.
+				</p>
+				<p>
+					The results indicate that the RF classifier outperforms the ML classifier, handling intra-class
+					spectral
+					variability and inter-class spectral similarities more efficiently.
+				</p>
+			</div>
+
+		</div>
+		<hr>
+		<div class="wrap mt-4">
+			<div id="myCarousel2" class="col-lg-3 carousel slide" data-bs-ride="carousel">
+
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/GIS_projects/TSA/Integrals.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/TSA/magnitude.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/TSA/peaking_times.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/TSA/syndrome_agriculture.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/TSA/syndrome_natural.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/TSA/sydrome.PNG">
+					</div>
+				</div>
+
+				<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel2" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon custom-carousel-control" aria-hidden="false"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#myCarousel2" data-bs-slide="next">
+					<span class="carousel-control-next-icon custom-carousel-control" aria-hidden="false"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+
+
+			</div>
+			<div class="image-info">
+				<p>
+					<strong>Time Series Analysis & Pattern Recognition</strong>
+				</p>
+				<p>
+					<strong>Tools: R and ArcGIS</strong>
+				</p>
+
+				<strong>Summary :</strong>
+
+				<p>
+					The analysis focuses on utilizing time series satellite images to examine and characterize likely
+					land-use and land-cover (LULC) changes
+					in vegetated areas across Europe from 1983 to 2015, along with the potential underlying processes
+					that triggered these changes.
+					The Global Inventory Modeling and Mapping Studies (GIMMS) NDVI imagery time series data with an 8km
+					spatial resolution and 15-day temporal resolution was used for this study.
+					This dataset enabled the generation of phenological metrics used to characterize potential drivers
+					that may have influenced the changes ground processes, following the criteria used in Stellmes et
+					al., 2013, a method also known as the syndrome approach.
+				</p>
+			</div>
+
+		</div>
+		<hr>
+		<div class="wrap mt-4">
+			<div id="myCarousel3" class="col-lg-3 carousel slide" data-bs-ride="carousel">
+
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/GIS_projects/N_sidedress/study_area.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/N_sidedress/hyperspectral_indices.PNG">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/N_sidedress/sensitivity_of_HVI.PNG">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/N_sidedress/sidedress.png">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/N_sidedress/predicted_sidedress.PNG">
+					</div>
+				</div>
+
+				<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel3" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon custom-carousel-control" aria-hidden="false"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#myCarousel3" data-bs-slide="next">
+					<span class="carousel-control-next-icon custom-carousel-control" aria-hidden="false"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+
+
+			</div>
+			<div class="image-info">
+				<p>
+					<strong>Optimal Nitrogen Fertilization Rates in Potato Field</strong>
+				</p>
+				<p>
+					<strong>Tools: R and ArcGIS</strong>
+				</p>
+
+				<strong>Summary :</strong>
+
+				<p>
+					Nitrogen (N) is an essential macronutrient for plant growth, significantly influencing
+					photosynthetic production and crop yields (MARSHALL&VOS, 1991).
+					N fertilization is widely adopted for enhancing N supply and crop production (Koch et al.,
+					2019), but excessive use may lead to economic and environmental challenges.
+					Therefore, determining the optimum N-fertilization rate based on actual plant requirements is
+					crucial. The objectives of this study are:
+				</p>
+				<p>
+					The objectives of this analysis are as follows:
+				<ul>
+					<li>Radiometric correction of hyperspectral images from an unmanned aerial system (UAS). </li>
+					<li>Examining the sensitivity of different vegetation indices (VI) to N status in a potato
+						field.</li>
+					<li>Quantifying the temporal and spatial variability of side dress N rate in the potato field
+						based on measured canopy reflectance.</li>
+				</ul>
+				</p>
+				<p>
+					The study was conducted in Luxembourg, dividing the field into three random plots with different
+					N treatments and three repetitions for each treatment across the crop season.
+					Linear regression analysis between different hyperspectral spectral vegetation indices and the
+					field observation was performed to find the best-performing index for assessing crop nitrogen
+					concentration and quantifying sidedress nitrogen.
+					The Weighted Difference Vegetation Index (WDVI) was shown to be more reliable for prediction
+
+				</p>
+				<p>
+					The analysis results showcase the potential of hyperspectral remote sensing in monitoring
+					nitrogen (N) status and determining optimal N fertilization rates in potato fields.
+					The findings highlight the variability and site-specific nature of sidedress N, allowing for
+					efficient N fertilization without compromising both yield and environmental considerations.
+
+				</p>
+			</div>
+
+		</div>
+		<hr>
+		<div class="wrap mt-4">
+			<div id="myCarousel4" class="col-lg-3 carousel slide" data-bs-ride="carousel">
+
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/GIS_projects/other/watershed.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="images/GIS_projects/other/windmill.jpg">
+					</div>
+				</div>
+
+				<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel4"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon custom-carousel-control" aria-hidden="false"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#myCarousel4"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon custom-carousel-control" aria-hidden="false"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+
+
+			</div>
+			<div class="image-info">
+				<p>
+					<strong>Other GIS Mapping</strong>
+				</p>
+				<p>
+					<strong>Tools: ArcGIS</strong>
+				</p>
+				<p>
+				<ul>
+					<li>Hydrological analysis of watershed and sub watersheds in Ruwer valley, Germany</li>
+
+					<li>Mapping of Wind mills in Waldrach, Germany</li>
+
+				</ul>
+				</p>
+			</div>
+
+		</div>
+
+
+			<!-- <div>
+				<div class="row">
+					<div class="col-lg-9 order-2 order-lg-2">
+						<div class="mt-2">
+							<p class="lead">Crow's nest schooner ho scallywag hail-shot gabion salmagundi. Doubloon
+								careen code of conduct lugsail hulk ye long clothes.</p>
+
+						</div>
+					</div>
+					<div class="col-lg-3 order-1 order-lg-1">
+						<img class="image-gis img-fluid" src="images/GIS_projects/LULC/ML.jpg"
+							alt="Random Forest Image" />
+					</div>
+				</div> -->
+
+		<!-- <div class="pagination">
+				<a href="#" class="button previous">Previous Page</a>
+				<div class="pages">
+					<a href="#" class="active">1</a>
+					<span>&hellip;</span>
+					<a href="#">2</a>
+
+				</div>
+				<a href="#" class="button next">Next Page</a>
+			</div> -->
+
+
+		<script src="bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+		<!-- <script src="js/jquery.min.js"></script>
+		<script src="js/browser.min.js"></script>
+		<script src="js/breakpoints.min.js"></script>
+		<script src="js/util.js"></script>
+		<script src="js/main.js"></script> -->
+
+</body>
+
+</html>
